@@ -1,0 +1,97 @@
+<!doctype>
+<html>
+<head>
+<title>register</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/commonstyle.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style-y.css">
+<style type="text/css">
+body{
+	background-color: rgba(248,248,248,0.9);
+}
+</style>
+</head>
+<body>
+	<div class="public-top-layout">
+		<div class="top-bar">
+			<div class="fr text-special">手机322</div>
+			<div class="qucik-menu fr">
+				欢迎光临<span class="text-special">322</span>校园超市，请<a  class="text-special"> 登录 </a><a class="text-special"> 注册 </a>
+				<span class="spliter text-special"></span>
+			</div>
+		</div>
+	</div>
+	<div class="register-logo wrapper">
+		<img src="__PUBLIC__/img/logo.png">
+		<span>欢迎注册</span>
+	</div>
+	<div class="wrapper register-body clearfix">
+		<div class="register">
+			<form id="register-form" method="post" action="__URL__/toRegister">
+				<div class="register-div">
+					<span class="before-item">用户昵称:</span>
+					<div class="register-item">
+						<input name="nickname" type="text">
+						<span class="glyphicon glyphicon-user register-icon"></span>
+					</div>
+					<span class="after-item"></span>
+				</div>
+				<div class="register-div">
+					<span class="before-item">设置密码:</span>
+					<div class="register-item">
+						<input name="password" type="password">
+						<span class="glyphicon glyphicon-lock register-icon"></span>
+					</div>
+					<span class="after-item">请设置8-20位密码，最好用字母和数字组合</span>
+				</div>
+				<div class="register-div">
+					<span class="before-item">确认密码:</span>
+					<div class="register-item">
+						<input name="confirm-password" type="password">
+						<span class="glyphicon glyphicon-lock register-icon"></span>
+					</div>
+					<span class="after-item">请再次输入密码</span>
+				</div>
+				<div class="register-div">
+					<span class="before-item">手机号码:</span>
+					<div class="register-item">
+						<input name="phone" type="text">
+						<span class="glyphicon glyphicon-phone register-icon"></span>
+					</div>
+					<span class="after-item">请输入11位大陆手机号</span>
+				</div>
+				<div class="register-div">
+					<span class="before-item">验证邮箱:</span>
+					<div class="register-item">
+						<input name="mail" type="text">
+						<span class="glyphicon glyphicon-envelope register-icon"></span>
+					</div>
+					<span class="after-item">请输入规范的邮箱</span>
+				</div>
+			
+				<div class="register-div register-protocol">
+					<input type="checkbox" id="register-protocol">我已阅读并同意<a class="text-special">《322用户协议》</a>
+				</div>
+				<div class="register-div">
+					<input class="register-btn" disabled="disabled" type="submit" value="立即注册">
+				</div>
+			</form>
+
+		</div>
+
+		<div class="to-login">
+			<span>
+				<a href="">已有账号，返回登录>></a>
+			</span>
+		</div>	
+	</div>
+
+
+
+		<script type="text/javascript" src="__PUBLIC__/script/plugins/jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/script/plugins/jquery.validate.js"></script>
+		<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/script/register.js"></script>
+</body>
+</html>
