@@ -99,7 +99,7 @@ a.top-menu-item{
 }
 .sidebar li{
 	width: 150px;
-	height: 40px;
+	height: 50px;
 	padding-top: 10px;
 	background-color: #2D2D2D;
 	font-family: "黑体";
@@ -107,8 +107,37 @@ a.top-menu-item{
 	color: #aaa;
 	text-align: center;
 }
+.homepagecarousel{
+	width:950px;
+	height:400px;
+	float:right;
+}
+.homepagecarousel img{
+	max-height: 400px;
+	width: 950px;
+}
 
+.latestrecomm{
+}
+.latestrecommtitle{
+	height: 50px;
+	width: 1100px;
+	font-size:20px;
+	font-weight: bolder;
+	padding: 15px 0 0 30px;
+	font-family: "黑体";
 
+}
+.homepageimggroup li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 0 10px;
+}
+.homepageimggroup img{
+	width: 200px;
+	height: 200px;
+}
 .footer{
 	width: 100%;
 	height: auto;
